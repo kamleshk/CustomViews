@@ -279,7 +279,8 @@ class CustomTextField: UITextField {
              rightView = img
         }
     }
-    
+
+// clearing textfield
     @objc func clearTextField() {
         //self.shake()
         self.text = ""
